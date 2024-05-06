@@ -13,4 +13,4 @@ st.title('my first demo stramlit app !!')
 region = st.selectbox("Region: ",
                      regions)
 
-st.write(f"Your region code is: {code_dict['region']}")
+st.write(f"Your region code is: {code_dict[region]}")
